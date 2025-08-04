@@ -13,7 +13,7 @@ const Dashboard = () => {
   const [totalDonations, setTotalDonations] = useState(0);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/donations/total')
+    fetch('https://shecan-backend-jessica-jasmine.onrender.com/api/donations/total')
       .then((res) => res.json())
       .then((data) => setTotalDonations(data.total_donations))
       .catch((err) => console.error("Failed to fetch donations:", err));
