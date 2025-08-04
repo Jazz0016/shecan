@@ -1,0 +1,130 @@
+.dashboard {
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcome {
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.logout-button {
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e66800;
+}
+
+.ref-leader-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.ref-code {
+  font-size: 20px;
+  color: #333;
+}
+
+.ref-code span {
+  font-weight: bold;
+  color: #ff7a00;
+}
+
+/* NEW: Leaderboard button styles */
+.leaderboard-link {
+  text-decoration: none;
+}
+
+.leaderboard-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #fff8f0;
+  border: 2px solid #ff7a00;
+  border-radius: 12px;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-button:hover {
+  background-color: #ffe0c2;
+}
+
+/* Boxes */
+.box-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.donation-box,
+.rewards-box {
+  background-color: #fff3e0;
+  border: 2px solid #ff7a00;
+  padding: 20px;
+  border-radius: 12px;
+  width: 48%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-box h2,
+.rewards-box h2 {
+  margin-bottom: 10px;
+  color: #ff7a00;
+}
+
+.rewards-button {
+  background-color: #f9a825;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.rewards-link {
+  text-decoration: none;
+}
+
+.view-rewards-button {
+  background-color: #ff8c00; /* bright orange */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.view-rewards-button:hover {
+  background-color: #e67e00; /* darker on hover */
+}
