@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:3000' })); // allow React frontend
+app.use(cors({ origin: 'https://shecan-frontend-jessica.onrender.com' })); // allow React frontend
 app.use(express.json());
 
 // Dummy user
